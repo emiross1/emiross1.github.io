@@ -1,0 +1,66 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+img {
+	width: 100%;
+	display: block;
+}
+
+body {
+	background-color: rgb(247, 247, 247); 
+	color: rgb(31, 31, 31); 
+	line-height: 140%; 	
+	font-family: sans-serif;
+}
+
+h1 {
+	background-color: rgb(159, 159, 167);
+	color: rgb(247, 247, 247); 
+	font-size: 3em;
+	padding: 3rem 1.5rem 2rem; 
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+h2 {
+	background-color: rgb(159, 159, 167);
+	color: rgb(247, 247, 247);
+	font-size: 2em;
+	padding: 0.5rem 1.5rem 1rem;
+	font-family: serif;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 3rem 1rem 2rem; 
+	padding-top: 0.75rem;
+	font-size: 1.5em;
+	color: rgb(167, 63, 63);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em; 
+	border-top: 3px solid rgb(167, 63, 63);
+}
+
+h4 {
+	font-weight: bold;
+}
+
+p.description {
+	font-style: italic;
+}
+
+p.price {
+	color: rgb(167, 63, 63);
+}
+
+ul {
+	margin: 2rem 1rem 4rem;
+    padding: 0;
+}
+
+li { 
+	margin: 1rem 0rem;
+	list-style-type: none;
+}
