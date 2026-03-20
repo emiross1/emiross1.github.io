@@ -1,0 +1,201 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+body {  
+	font-family: "meursault-variable",serif;
+	font-variation-settings: 'wdth' 50, 'wght' 400;
+	background-color: rgb(143, 164, 159); 
+}  
+
+div.home-container { 
+	background: url(images/background.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	max-width: 80em;
+	margin: auto;
+	background-color: rgb(233, 226, 208);
+}
+
+div.container { 
+	position: relative;
+	min-height: 100vh;
+	max-width: 80em;
+	margin: auto;
+	background-color: rgb(233, 226, 208);
+}
+
+/* >>> IMPORTANT: you have to change the wrap of the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class. And you need a div with the class container and all the other pages.  */
+
+
+main { 
+	padding: 1rem 2rem 5rem;
+	}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 8em auto;
+	background: rgb(165, 169, 138);
+	padding: 1em 0.5em;
+	}
+
+h1 {
+	width: 8em;
+	padding: 1em 0em 1em 3em;
+	}
+
+h2, h3, h4 {
+	font-variation-settings: 'wdth' 50, 'wght' 700;
+	color:rgb(71, 44, 35);
+	}
+
+h2 {
+	font-size: 2.25em;
+	margin: 2rem 0rem 0.5rem;
+	}
+	
+h3 {
+	font-size: 1.5em;
+	margin: 2rem 0rem 0.5rem;
+}
+
+
+a {
+	text-decoration: none;
+	}
+
+nav ul  {
+	text-align: right;
+	margin-top: 2.5em;
+	}
+	
+ul li 	{
+	list-style-type: none;
+}
+
+figure {
+	margin-bottom: 1rem;
+}
+
+main.menu ul {
+		margin: 2rem 0rem;
+}	
+
+main.menu ul li {
+	margin: 1rem 0rem 2rem;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+}	
+
+p {
+	margin: 1rem 0rem 0.5rem;
+	color:rgb(71, 44, 35);
+	}
+	
+p.description {
+	grid-column: 1/-1;
+	margin: 0rem;
+	}
+	
+p.price {
+	grid-row: 1;
+	grid-column: 2;
+	color: rgb(165, 169, 138);
+	text-align: right;
+	margin: 0;
+	}
+
+nav ul li {
+	text-transform: uppercase;
+	font-variation-settings: 'wdth' 50, 'wght' 700;
+	margin-bottom: 1.5rem;
+	}
+	
+nav ul li a {
+	color: rgb(233, 226, 208);
+	padding: 0.5em 0.5em 0.5em;
+	}
+	
+nav ul li.selected a {
+	color: rgb(71, 44, 35);
+}
+
+p.slogan {
+	font-size: 3em;
+	font-variation-settings: 'wdth' 50, 'wght' 700;
+	margin: 4rem 0.5rem 8rem;
+	color: rgb(71, 44, 35);	
+	}
+	
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; 
+  box-sizing: border-box;
+  padding: 1em 0.5em;
+  background: rgb(165, 169, 138);
+}
+
+p.footer {
+	color: rgb(233, 226, 208);
+}
+
+address {
+	color: rgb(71, 44, 35);
+	}
+
+footer p {
+	margin: 0;
+}
+
+article{
+	/* >>> background-color: rgb(0, 255, 255); */ 
+	max-width: 35em;
+	margin: 0 auto; 
+} 
+
+.team {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+	max-width: 80em;
+	margin: auto;
+}
+
+.member {
+	text-align: center;
+}
+
+.member img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+@media screen and (min-width: 60em) {
+
+	nav ul li{
+		display: inline;
+		padding: 0em 0.5em;
+		font-size: 2em;
+	}
+	nav ul{ 
+		padding: 2em;
+	}
+
+	main.menu ul {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 2em 4em;
+	}
+
+}
