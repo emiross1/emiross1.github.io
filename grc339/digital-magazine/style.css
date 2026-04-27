@@ -1,0 +1,196 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+div.container {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+h1 {
+	width: 8em;
+    margin: 1rem 0.5rem;
+}
+
+nav ul  {
+    margin: 0rem 0.5rem 1rem 0.5rem;
+}
+
+nav ul li{
+	list-style-type: none;
+    margin-bottom: 0.15em;
+} 
+
+nav ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(85, 119, 153);
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+section.mainstory a{
+    text-decoration: none;
+}
+
+section.mainstory a h2{
+    font-family: serif;
+    color: rgb(85, 119, 153);
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+section.mainstory a p{
+    font-family: sans-serif;
+    color: rgb(35, 35, 35);
+    font-size: 1em;
+    margin: 0rem 0.5rem 2rem 0.5rem;
+    line-height: 1.25em;
+}
+
+section.secondarystory a{
+    text-decoration: none;
+}
+
+section.secondarystory a h2{
+    font-family: serif;
+    color: rgb(85, 119, 153);
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+section.secondarystory a p{
+    font-family: sans-serif;
+    color: rgb(35, 35, 35);
+    font-size: 1em;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    line-height: 1.25em;
+    padding-bottom: 2rem;
+}
+
+section.tertiarystory a{
+    text-decoration: none;
+}
+
+section.tertiarystory a h2{
+    font-family: serif;
+    color: rgb(85, 119, 153);
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+    border-top: 1.5px solid rgb(85, 119, 153);
+    padding-top: 0.25em;
+}
+
+section.tertiarystory a p{
+    font-family: sans-serif;
+    color: rgb(35, 35, 35);
+    font-size: 1em;
+    margin: 0rem 0.5rem 2rem 0.5rem;
+    line-height: 1.25em;
+}
+
+footer {
+    width: 100%;
+    height: 3rem;
+    background: rgb(85, 119, 153);
+}
+
+footer p{
+	color: rgb(244, 244, 244);
+    padding: 1rem 0.5rem;
+    font-family: sans-serif;
+}
+
+figcaption{ 
+    font-family: sans-serif;
+    color: rgb(72, 72, 72);
+    font-size: 1em;
+    font-style: italic;
+    margin: 0.5rem 0.5rem 2rem 0.5rem;
+    line-height: 1.25em;
+}
+
+article h2{
+    font-family: serif;
+    color: rgb(85, 119, 153);
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+article p{ 
+   font-family: sans-serif;
+    color: rgb(35, 35, 35);
+    font-size: 1em;
+    margin: 0rem 0.5rem 2rem 0.5rem;
+    line-height: 1.25em; 
+}
+
+aside{ 
+    background: rgb(204, 206, 255);
+    padding-bottom: 2rem;
+}
+
+aside figure{ 
+    padding: 1rem 0.5rem 0rem 0.5rem;
+}
+
+aside section.secondarystory a h2{
+    font-family: serif;
+    color: rgb(85, 119, 153);
+    font-size: 1.15em;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem 0rem 1rem;
+}
+
+aside section.secondarystory a p{
+    font-family: sans-serif;
+    color: rgb(35, 35, 35);
+    font-size: 1em;
+    padding: 0rem 0.5rem 1.5rem 0rem;
+    line-height: 1.25em;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 50em) {
+
+    nav ul li{
+		display: inline-block;
+		padding: 0em 2em 0em 0em;
+	}
+
+    nav ul{ 
+        margin-left: 0em;
+    }
+
+    figcaption, h1{ 
+        margin-left: 0em;
+    }
+
+    article h2, article p{
+        margin-left: 0em;
+    }
+    
+
+    section.mainstory a h2, section.mainstory a p{ 
+        margin-left: 0em;
+    }
+
+    section.secondarystory a h2, section.secondarystory a p{ 
+        margin-left: 0em;
+    }
+
+    section.tertiarystory a h2, section.tertiarystory a p{ 
+        margin-left: 0em;
+    }
+}
