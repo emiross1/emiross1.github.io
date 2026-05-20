@@ -23,10 +23,11 @@ nav li{
 
 nav a {
     text-decoration: none;
-    font-family: sans-serif;
-    color: rgb(85, 119, 153);
+    font-family: "gimlet-text", serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 1em;
-    font-weight: bold;
+    color: rgb(101, 90, 42);
     
 }
 
@@ -39,21 +40,27 @@ h1 {
     margin: 1rem 0.5rem;
 }
 
-h2, article h2{
-    font-family: serif;
-    color: rgb(85, 119, 153);
-    font-weight: bold;
+h2, h3, article h2{
+    font-family: "hardcover-vf", sans-serif;
+    font-variation-settings: "wght" 700;
+    color: rgb(101, 90, 42);
 }
 
 p, article p, section a p, .secondarystory p{
-    font-family: sans-serif;
-    color: rgb(35, 35, 35);
-    font-size: 1em;
+    font-family: "gimlet-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(39, 39, 39);
+    font-size: 0.875em;
     line-height: 1.25em;
 }
 
 .mainstory a h2{
     font-size: 3em;
+}
+
+.mainstory a h3{
+    font-size: 2em;
 }
 
 .secondarystory a h2{
@@ -62,7 +69,7 @@ p, article p, section a p, .secondarystory p{
 
 .tertiarystory a h2{
     font-size: 1.25em;
-    border-top: 1.5px solid rgb(85, 119, 153);
+    border-top: 1.5px solid rgb(101, 90, 42);
     padding-top: 0.25em;
 }
 
@@ -79,10 +86,11 @@ section a p{
 }
 
 figcaption{ 
-    font-family: sans-serif;
-    color: rgb(72, 72, 72);
-    font-size: 1em;
-    font-style: italic;
+    font-family: "gimlet-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(39, 39, 39);
+    font-size: 0.75em;
     margin: 0.5rem 0.5rem 2rem 0.5rem;
     line-height: 1.25em;
 }
@@ -97,7 +105,7 @@ article p{
 }
 
 aside{ 
-    background: rgb(204, 206, 255);
+    background: rgb(189, 172, 97);;
     padding-bottom: 2rem;
 }
 
@@ -118,12 +126,12 @@ aside .secondarystory p{
 footer {
     width: 100%;
     height: 3rem;
-    background: rgb(85, 119, 153);
+    background: rgb(101, 90, 42);
     box-sizing: border-box;
 }
 
 footer p{
-	color: rgb(244, 244, 244);
+	color: rgb(232, 233, 237);
     padding: 1rem 0.5rem;
 }
 
@@ -141,8 +149,6 @@ footer p{
     h1, figcaption, article h2, article p, section a h2, section a p{ 
         margin-left: 0em;
     }
-
-
 }
 
 @media only screen and (min-width: 60em) {
