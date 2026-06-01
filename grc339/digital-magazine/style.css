@@ -4,9 +4,13 @@ img {
 width: 100%;
 display: block;
 }
+body {
+    background: rgb(232, 233, 237);
+}
 div.container, div.home-container {
 max-width: 50em;
 margin: 0 auto;
+background-color: rgb(232, 233, 237);
 }
 nav ul  {
 margin: 0rem 0.5rem 1rem;
@@ -314,6 +318,10 @@ flex: 0 0 4em;
 
 div.container, div.home-container {
 background-color: rgb(39, 39, 39);
+}
+
+body {
+    background: rgb(39, 39, 39);
 }
 
 nav a{
