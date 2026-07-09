@@ -1,0 +1,138 @@
+/*CSS DOCUMENT */
+
+
+body {
+	background-color: #fafafa;
+	color: #333333;
+	font-family: "franklin-gothic-atf", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+div.container {
+	max-width: 60em;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+}
+
+figure {
+	margin: 1em 0;
+}
+
+h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0; 
+	padding:0; 
+	font-size: 1em; 
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 4em; 
+	font-weight: 600;
+	padding-top: 1em;
+}
+
+.highlight_color1{
+  color: rgb(62, 160, 35); /* Put your desired hex code or color name here */
+}
+
+.highlight_color2{
+  color: rgb(99, 137, 233); /* Put your desired hex code or color name here */
+}
+
+h2 {
+	font-size: 3em; 
+	font-weight: 500;
+	padding-top: 1em;
+}
+
+h2.gallery {
+	padding-top: 2em;
+	padding-bottom: 1.5em;
+}
+
+h3 {
+	font-size: 2.5em; 
+	font-weight: 500;
+	padding-top: 2em;
+}
+
+h4 {
+	font-size: 1.5em; 
+	font-weight: 500;
+	padding-bottom: 0.25em;
+	padding-top: 1.5em;
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+.typeface-history {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 3em;
+}
+
+.split-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1.25em;
+}
+
+.split-image figure {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title {
+  grid-column: 1 / -1;
+}
+
+.gallerytitle {
+  grid-column: 1 / -1;
+  padding-top: 0em;
+}
+
+
+figure.numbers {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Image takes 2 parts, caption takes 1 part */
+  gap: 1em;
+}
+
+.photogallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 3em;
+  padding-bottom: 6em;
+}
+
+.photogallery figure {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.keydifferences {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 1.25em;
+  background-color: rgb(200, 208, 212);
+  padding: 3em;
+}
+
+.keydifferences figure {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.compiled{
+	grid-column: 1 / -1;
+}
